@@ -1,0 +1,11 @@
+for using redux in this app
+Create reducer
+Create Store, connect reducer to a store
+apply middleware to be able to link thunk to store and convert reducer to a function
+link store to index.js
+create action creators and action type folders, action takes in the dispatch object which takes in type and payload
+dispatch action creators 
+combine reducers to create multiple reducers(combine reducers take in different reducers)
+useDispatch(dispatch an action and save it in the state)
+useSelector(take an action from the state, or take in the current state)
+

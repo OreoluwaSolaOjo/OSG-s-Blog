@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import store from './components/redux/store';
+import { Provider } from 'react-redux';
+import 'semantic-ui-css/semantic.min.css'
 
+// to connect to your app use provider to wrap your main app
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
